@@ -24,7 +24,6 @@
     font-size: 1.5rem;
     text-decoration: none;
 }
-=======
 /* General styles */
 body {
     font-family: Arial, sans-serif;
@@ -67,4 +66,37 @@ body {
     text-decoration: underline;
 }
 
+
+/* main content styles */
+div {
+    margin-bottom: 2rem;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+}
+
+input, select, button {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
 
