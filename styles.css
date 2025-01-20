@@ -8,13 +8,35 @@ body {
 }
 
 /* Header styles */
-.app-header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #6200ea;
+    background-color: #333;
     color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
 }
 
